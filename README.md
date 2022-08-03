@@ -1,2 +1,3 @@
-# ARC_T3_Workshop
-Workshop material for ARC and T3
+## ARC and T3 Workshop material
+
+This repository contains scripts and documaentation material for the ARC and T3 workshop
