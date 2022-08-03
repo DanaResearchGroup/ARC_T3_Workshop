@@ -1,0 +1,32 @@
+project: gsm_6
+
+level_of_theory: gfn2
+conformer_level: gfn2
+
+job_types:
+  rotors: false
+  fine: false
+  irc: false
+
+freq_scale_factor: 1
+
+species:
+  - label: iC3H7
+    smiles: C[CH]C
+  - label: nC3H7
+    smiles: CC[CH2]
+
+reactions:
+  - label: iC3H7 <=> nC3H7
+    ts_xyz_guess: |
+      C       -1.317288   -0.260819   -0.032638
+      C       -0.041481    0.531329    0.023478
+      C        1.279070   -0.197051   -0.023973
+      H       -2.209628    0.216416   -0.384249
+      H       -1.256224   -1.330754   -0.054542
+      H       -0.820484    0.291169    1.063154
+      H       -0.088157    1.550626   -0.307983
+      H        2.089909    0.431147    0.325728
+      H        1.509031   -0.512144   -1.040023
+      H        1.253745   -1.087218    0.596715
+
