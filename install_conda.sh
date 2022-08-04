@@ -8,6 +8,9 @@ sudo apt install git gcc g++ make -y
 mkdir /home/$USER/.arc
 mkdir /home/$USER/runs
 
+# Copy settings to .arc
+cp /home/kfir4444/code/temp/ARC_T3_Workshop/settings/settings.py /home/$USER/.arc
+cp /home/kfir4444/code/temp/ARC_T3_Workshop/settings/submit.py /home/$USER/.arc
 # Download files
 wget -P /home/$USER/Downloads https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 
