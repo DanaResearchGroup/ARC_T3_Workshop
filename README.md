@@ -17,7 +17,7 @@ Run:
 
 Then:
 
-`git clone https://github.com/kfir4444/ARC_T3_Workshop`
+`git clone https://github.com/DanaResearchGroup/ARC_T3_Workshop`
 
 Next:
 
