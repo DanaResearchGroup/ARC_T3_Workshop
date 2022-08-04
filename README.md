@@ -39,15 +39,18 @@ Run:
 
 After the installation is finished, navigate (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command:
 
+`conda activate rmg_env`
+
 `make test`
 
 After the tests are done, repeat the process with ARC: 
 
 in the terminal 
-
 `cd ../ARC`
 
 then
+
+`conda activate arc_env`
 
 `make test`
 
