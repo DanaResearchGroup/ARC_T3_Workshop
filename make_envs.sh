@@ -27,6 +27,5 @@ cd RMG-Py/
 make
 python -c "import julia; julia.install(); import diffeqpy; diffeqpy.install()"
 julia -e 'using Pkg; Pkg.add(PackageSpec(name="ReactionMechanismSimulator",version="0.4")); using ReactionMechanismSimulator;'
-make test
 conda deactivate
 
