@@ -13,6 +13,15 @@ cd ../RMG-Py
 git remote rename origin official
 mamba env create -f environment.yml
 
+export PYTHONPATH=$HOME/Code/RMG-Py/:$PYTHONPATH
+export PATH=$HOME/Code/RMG-Py/:$PATH
+
+export PYTHONPATH=$HOME/Code/ARC/:$PYTHONPATH
+export PATH=$HOME/Code/ARC/:$PATH
+
+export PYTHONPATH=$HOME/Code/T3/:$PYTHONPATH
+export PATH=$HOME/Code/T3/:$PATH
+
 conda activate rmg_env
 cd RMG-Py/
 make
