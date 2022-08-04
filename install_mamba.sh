@@ -4,7 +4,7 @@ source ~/.bashrc
 
 # Install mamba (https://github.com/mamba-org/mamba, https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 conda install mamba -n base -c conda-forge -y
-mamba init bash
+
 source ~/.bashrc
 
 # Clone repos
