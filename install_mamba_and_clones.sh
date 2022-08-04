@@ -7,10 +7,6 @@ conda install mamba -n base -c conda-forge -y
 mamba init bash
 source ~/.bashrc
 
-#install psi4
-mamba install -c psi4 psi4
-mamba create -n p4env psi4 -c psi4
-
 # Clone repos
 cd /home/$USER/Code
 git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
