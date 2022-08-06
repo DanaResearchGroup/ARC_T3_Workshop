@@ -3,7 +3,7 @@ Welcome to the instructions for the ACS fall 2022- ARC and T3 workshop!
 
 Here are the files used to automatically install the software required for the workshop.
 
-# installations: 
+# Installations: 
 
 In your Ubuntu virtual machine, create a "Code" directory using the Files application:
 Open the "Files" app (on the ruller, typically in the left side of the screen) by clicking on it.
