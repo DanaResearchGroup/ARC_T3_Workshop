@@ -8,7 +8,7 @@ Here are the files used to automatically install the software required for the w
 In your Ubuntu virtual machine, create a "Code" directory using the Files application:
 Open the "Files" app (on the ruller, typically in the left side of the screen) by clicking on it.
 
-Make sure that the directory in the upper part of the window sais "Home".
+Make sure that the directory in the upper part of the window says "Home".
 
 right clicking on the background, choosing "New Folder" and choose the name "Code".
 
