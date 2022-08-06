@@ -40,7 +40,7 @@ Run:
 
 # Optional: Testing
 
-Warning, this stage might take an additional ~30 minutes of idle time.
+Note: this stage might take an additional ~30 minutes of idle time.
 
 After the installation is finished, navigate (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command:
 
