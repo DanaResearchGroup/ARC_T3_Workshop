@@ -1,9 +1,6 @@
 # Make sure periodically that we're downloading the most up to date Anaconda version (see https://www.anaconda.com/products/individual, bottom right)
 cd ..
 
-# apt install
-sudo apt install git gcc g++ make -y
-
 # Create folders
 mkdir /home/$USER/.arc
 mkdir /home/$USER/runs

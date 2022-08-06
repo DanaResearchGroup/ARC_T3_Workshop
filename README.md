@@ -18,7 +18,7 @@ This can be done by right clicking on the Files application and choosing "Open I
 
 Run:
 
-`sudo apt install git`
+`sudo apt install git gcc g++ make -y`
 
 Then:
 
