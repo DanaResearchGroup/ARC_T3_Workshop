@@ -7,6 +7,10 @@ conda install mamba -n base -c conda-forge -y
 
 source ~/.bashrc
 
+# Copy to .arc folder:
+cp ARC_T3_Workshop/settings/settings.py /home/$USER/.arc
+cp ARC_T3_Workshop/settings/submit.py /home/$USER/.arc
+
 # Clone repos
 cd /home/$USER/Code
 git clone https://github.com/ReactionMechanismGenerator/RMG-Py.git
