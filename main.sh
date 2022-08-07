@@ -1,4 +1,6 @@
 # after running installing conda
+CONDA_BASE=$(conda info --base)
+source $CONDA_BASE/etc/profile.d/conda.sh
 
 source ~/.bashrc
 
@@ -16,16 +18,11 @@ git clone https://github.com/ReactionMechanismGenerator/T3.git
 
 # Change remote names
 
-cd RMG-database
-git remote rename origin official
-cd ../ARC
-git remote rename origin official
+cd ARC
 mamba env create -f environment.yml
 cd ../T3
-git remote rename origin official
 mamba env create -f environment.yml
 cd ../RMG-Py
-git remote rename origin official
 mamba env create -f environment.yml
 
 # Echo paths to ~/.bashrc
@@ -44,7 +41,6 @@ source ~/.bashrc
 # Compile RMG
 
 conda activate rmg_env
-cd RMG-Py/
 make
 python -c "import julia; julia.install(); import diffeqpy; diffeqpy.install()"
 julia -e 'using Pkg; Pkg.add(PackageSpec(name="ReactionMechanismSimulator",version="0.4")); using ReactionMechanismSimulator;'
@@ -53,6 +49,6 @@ conda deactivate
 # Install ARC's requirements.
 
 conda activate rmg_env
-cd ARC/
+cd ../ARC/
 make install-all
 conda deactivate
