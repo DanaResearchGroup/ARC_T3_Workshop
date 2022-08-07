@@ -29,6 +29,20 @@ default_job_types = {'conformers': True,      # defaults to True if not specifie
                      'bde': False,            # defaults to False if not specified
                      }
 
+default_levels_of_theory = {'conformer': 'gfn2',
+                            'ts_guesses': 'gfn2',
+                            'opt': 'gfn2',
+                            'freq': 'gfn2',
+                            'scan': 'gfn2',
+                            'sp': 'gfn2',
+                            'irc': 'gfn2',
+                            'orbitals': 'gfn2',
+                            'scan_for_composite': 'B3LYP/CBSB7',
+                            'freq_for_composite': 'B3LYP/CBSB7',
+                            'irc_for_composite': 'B3LYP/CBSB7',
+                            'orbitals_for_composite': 'B3LYP/CBSB7',
+                            }
+
 # List here (complete or partial) phrases of methods or basis sets you'd like to associate to specific ESS
 # Avoid ascribing the same phrase to more than one software, this may cause undeterministic assignment of software
 # Format is levels_ess = {ess: ['phrase1', 'phrase2'], ess2: ['phrase3', 'phrase3']}
