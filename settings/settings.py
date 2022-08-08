@@ -13,8 +13,8 @@ servers = {
 supported_ess = ['xtb', 'torchani']
 
 # TS methods to try when appropriate for a reaction (other than user guesses which are always allowed):
-ts_adapters = ['heuristics', 'AutoTST', 'GCN', 'KinBot', 'xtb_gsm']
-#ts_adapters = []
+# ts_adapters = ['heuristics', 'AutoTST', 'GCN', 'KinBot', 'xtb_gsm']
+ts_adapters = ['xtb_gsm']
 
 # List here job types to execute by default
 default_job_types = {'conformers': True,      # defaults to True if not specified

@@ -1,4 +1,4 @@
-project: gsm_6
+project: rate_demo
 
 level_of_theory: gfn2
 conformer_level: gfn2
@@ -8,7 +8,7 @@ job_types:
   fine: false
   irc: false
 
-freq_scale_factor: 1
+freq_scale_factor: 1.0
 
 species:
   - label: iC3H7
