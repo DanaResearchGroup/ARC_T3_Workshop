@@ -42,7 +42,11 @@ Run:
 
 Note: this stage might take an additional ~30 minutes of idle time.
 
-After the installation is finished, navigate (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following command:
+After the installation is finished, run the following command in the terminal:
+
+`source ~/.bashrc`
+
+Then, navigate (using the terminal of the Files application) to `RMG-Py` (in terminal: `cd ~/Code/RMG-Py`), then, in the terminal, write the following commands:
 
 `conda activate rmg_env`
 
