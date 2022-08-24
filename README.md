@@ -65,10 +65,8 @@ then
 
 If the tests passes, it should conclude with no errors. If errors occure, please open an issue, with a screenshot of the error, so we could direct you with further instructions.
 
-# Congrats! you are all set for the ACS Fall 2022 ARC and T3 Workshop!
 
-
-# Before the workshop starts:
+# To update ARC automatically:
 
 Run:
 
@@ -78,4 +76,4 @@ Then:
 
 `bash updates.sh`
 
-# All set!
+# Congrats! you are all set for the ACS Fall 2022 ARC and T3 Workshop!
