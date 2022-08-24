@@ -5,18 +5,7 @@ cd $HOME/Code/ARC
 
 git pull
 
-echo update RMG:
-cd ../RMG-Py
-
-git pull
-
-cd ../RMG-database
-
-git pull
-
-echo update T3:
-cd ../T3
-
-git pull
-
 cd ..
+
+rm /home/$USER/.arc/settings.py
+cp ARC_T3_Workshop/settings/settings.py /home/$USER/.arc
