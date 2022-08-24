@@ -65,4 +65,15 @@ then
 
 If the tests passes, it should conclude with no errors. If errors occure, please open an issue, with a screenshot of the error, so we could direct you with further instructions.
 
+
+# To update ARC automatically:
+
+Run:
+
+`cd $HOME/Code/ARC_T3_Workshop && git pull`
+
+Then:
+
+`bash updates.sh`
+
 # Congrats! you are all set for the ACS Fall 2022 ARC and T3 Workshop!
